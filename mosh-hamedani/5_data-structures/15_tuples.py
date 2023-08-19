@@ -31,6 +31,28 @@ print("\n----Separator\n")
 point = (1, 2) * 3
 print(point)
 
+#----
+print("\n----Separator\n")
+
+#
+point = tuple([1, 2]) #To convert a list to a tuple. We can call the tuple function and pass any iterable here.
+print(point)
+
+#----
+print("\n----Separator\n")
+
+point = tuple("Hello World") #On a string
+print(point)
+
+#----
+print("\n----Separator\n")
+
+point = (1, 2, 3)
+print(point[0:2])
+x, y, z = point
+if 10 in point:
+    print("exist")
+point[0]
 
 
 
