@@ -7,7 +7,10 @@ error in code, the user might end wront input or resources
 might not be available e.g., we might want to open a file but 
 the file is not available and our program crashes
 
-It's a programmers resposibility to prevent a program from encountering these errors
+It's a programmers resposibility to prevent an application
+from crashing in these kind of situations and display a proper
+error msg to the user
+
 """
 
 age = int(input("Age: "))
