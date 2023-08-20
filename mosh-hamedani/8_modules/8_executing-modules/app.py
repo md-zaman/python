@@ -4,7 +4,6 @@ attributes and methods defined in an object
 """
 from ecommerce.shopping import sales
 
-from ecommerce.shopping import sales
 
 
 

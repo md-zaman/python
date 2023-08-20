@@ -1,7 +1,4 @@
-from ecommerce.customer import contact #absolute import
-from ..customer import contact # Relative 
-
-
+print("Sales initialized")
 
 def calc_tax():
     pass
