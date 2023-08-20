@@ -8,13 +8,14 @@ class Point:
     def draw(self):
         print(f"Point ({self.x}, {self.y})")
 
+Point.default_color = "yellow"
 point = Point(1, 2)
 print(point.default_color)
 print(Point.default_color)
-point.z = 10
+point.z = 10 # We can also define an attribute after we create a point object
 point.draw()
 
-another = Point(3, 4)
+another = Point(3, 4) 
 another.draw()
 
 
