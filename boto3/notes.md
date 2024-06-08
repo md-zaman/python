@@ -19,6 +19,8 @@
 
 7. Lambda means Compute and Serverless. and ec2 is compute
 
+Day 17 AV
+
 AWS Lambda Deep Dive for Beginners
 Introduction to Serverless Computing
 Today, we're going to embark on an exciting journey into the world of serverless computing and explore AWS Lambda, a powerful service offered by Amazon Web Services.
@@ -56,4 +58,11 @@ Real-Time Analytics: Lambda can process streaming data from IoT devices, social 
 
 API Backends: Develop scalable API backends for web and mobile applications using Lambda. It automatically handles the incoming API requests and executes the corresponding functions.
 
+Day 18
 
+AWS Cloud Cost Optimization - Identifying Stale Resources
+Identifying Stale EBS Snapshots
+In this example, we'll create a Lambda function that identifies EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
+
+Description:
+The Lambda function fetches all EBS snapshots owned by the same account ('self') and also retrieves a list of active EC2 instances (running and stopped). For each snapshot, it checks if the associated volume (if exists) is not associated with any active instance. If it finds a stale snapshot, it deletes it, effectively optimizing storage costs.
