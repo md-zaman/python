@@ -17,4 +17,3 @@ print(course[0:3]) #slicing the characters from 0 to 3, 3 will not be included
 print(course[0:]) #if we don't include anything, it will print till the end
 print(course[:3]) #by default pythong will put 0 there
 print(course[:]) #print start to end
-

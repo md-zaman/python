@@ -19,5 +19,6 @@ age = 12
 message = "Eligible" if age >= 18 else "Not Eligible"
 print(message)
 
-#So, what we have in our last code is known as ternery operator
+#So, what we have in our last code is known as ternery 
+# operator
 

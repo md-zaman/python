@@ -6,7 +6,8 @@ y = int(x) + 1
 print(f"x: {x}, y: {y}")
 
 """
-The above will return an error because the input will be taken as type str
+The above will return an error because the input will 
+be taken as type str
 """
 
 # int(x)
